@@ -5,7 +5,7 @@ export function Header(){
     return(
         <header className={styles.header}>
             <Link to="/">
-                <img src="../harry-potter-logos.png" alt="Harry Potter Logo Png" />
+                <img src="harry-potter-logos.png" alt="Harry Potter Logo Png" />
             </Link>
         </header>
     )
