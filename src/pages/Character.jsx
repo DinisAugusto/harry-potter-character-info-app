@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-import { useParams, Link  } from "react-router-dom"
+import { useParams, } from "react-router-dom"
 
 import styles from './Character.module.css';
 
@@ -17,7 +17,9 @@ export function Character() {
             <div>
                 {character?.map((character, index) => (
                     <div key={index}>
-                    
+
+                        <img className= {styles.img} src={character.image} alt={character.name}/>
+
                         <div className={styles.CharacterInfo}>
                             Name: {character.name}
                         </div>

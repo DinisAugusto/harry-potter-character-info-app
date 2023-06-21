@@ -3,4 +3,15 @@
 .CharacterInfo{
     padding: 2rem;
     font-size: 2rem;
+    border-top: 2px solid var(--color);
+}
+
+.img{
+    width: 20rem;
+    height: 30rem;
+    margin: 0 auto 1rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 1.5rem;
 }

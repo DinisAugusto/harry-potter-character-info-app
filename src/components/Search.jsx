@@ -3,10 +3,10 @@ import styles from './Search.module.css';
 export function Search({ total, search }) {
     return (
         <div className={styles.container}>
-            <div>{total} characters found</div>
+            <div>{total} Characters Found</div>
             <form className="search-form">
                 <input
-                    placeholder="search"
+                    placeholder="Search"
                     type="text"
                     onChange={search}
                 />

@@ -2,9 +2,9 @@
     background-color: #00000060;
     padding: .5rem;
     border: 2px solid var(--color);
-    border-radius: 2rem 1rem;
+    border-radius: 2rem;
     text-align: center;
-    height: 100%;
+    height: 95%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -37,5 +37,4 @@ a {
 
 .cardTitle{
     font-size: 2rem;
-
 }
